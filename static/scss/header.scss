@@ -1,0 +1,19 @@
+$color-red : red;
+$font-size-50 : 50px;
+.header{
+    width: 100%;
+    margin:10px auto;
+    border-bottom: 1px solid #eee;
+    ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        li {
+            a { 
+                color: #333;
+                text-decoration: none;
+                padding: 10px;
+            }
+        }
+    }
+}

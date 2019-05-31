@@ -1,0 +1,26 @@
+
+.header {
+  width: 100%;
+  margin: 10px auto;
+  border-bottom: 1px solid #eee; }
+  .header ul {
+    display: flex;
+    justify-content: center;
+    list-style: none; }
+    .header ul li a {
+      color: #333;
+      text-decoration: none;
+      padding: 10px; }
+
+.product_list {
+  display: flex;
+  flex-flow: wrap; }
+  .product_list_item {
+    flex: 25%;
+    margin: 0 auto;
+    text-align: center; }
+    .product_list_item:hover {
+      cursor: pointer; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/

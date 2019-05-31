@@ -1,0 +1,13 @@
+.product_list
+{
+    display: flex;
+    flex-flow: wrap;
+    &_item {
+        flex:25%;
+        margin:0 auto;
+        text-align: center;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
